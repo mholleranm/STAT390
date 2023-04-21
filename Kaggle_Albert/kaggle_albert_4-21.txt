@@ -1,0 +1,11 @@
+Kaggle Prediction Problem - Albert Wang 4-21-2023 Report
+
+Performed some brief EDA, noted that half of the data contain missing values. 
+Attempted to use subset selection for linear regression,
+ but the feature space caused overflow, even for forward stepwise. 
+Alternative strategy was to identify the features with the highest correlation with y. 
+This yielded a number of features that had R-squared of 1.
+However, modeling with them created errors.
+Next steps:
+Scale features, and then idenitfy the most correlated features with y. Use those to create a model.
+Consider other models for prediction.
