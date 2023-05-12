@@ -1,0 +1,5 @@
+Most of this week's work went towards the Kaggle competetion, but we made some progress in our EDA as well.
+We cleaned a lot of the data and removed some unimportant columns and missing values.
+We looked at longitude and latitude data to seee the distribution of programs as well as identify some outliers. 
+We then plotted long and lat by also changing the color based on program price, to see if there was a visual connection between price and location.
+Finally, we worked on visualizing the location data overlayed on an actual map of Chicago.
